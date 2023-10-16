@@ -1,0 +1,39 @@
+.favBook{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff0e0;
+    color: #53060b;
+    margin-bottom: 20px;
+    margin-right: 300px;
+
+    &__data{
+        height: 100%;
+        margin-right: 65px;
+        line-height: 12px;
+    }
+
+    &__btn{
+        margin: auto;
+        width: 180px;
+        height: 50px;
+        background-color:#53060b;
+        color: #e9d9c9;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        font-size: x-large;
+        cursor: pointer;
+        transition: .7s;
+
+        &:hover{
+            scale: 1.2;
+            transition: .7s;
+        }
+    }
+
+    &__img{
+        height: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+.mainSection__filter{
+
+    &--btn{
+        border: none;
+        margin: 10px 25px 10px 0px;
+        cursor: pointer;
+        font-size: larger;
+        transition: .8s;
+        color: #610d12;
+        font-weight: bold;
+
+        &:hover{
+            border-bottom: 2px solid #98141c;
+            transition: .5s;
+            scale: 1.1;
+        }
+    }
+}
